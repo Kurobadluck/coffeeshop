@@ -31,7 +31,7 @@ class DoUongsContainer extends Component {
 }
 
 DoUongsContainer.propTypes = {
-    products : PropTypes.arrayOf(
+    douongs : PropTypes.arrayOf(
         PropTypes.shape({
             id: PropTypes.number.isRequired,
             name: PropTypes.string.isRequired,

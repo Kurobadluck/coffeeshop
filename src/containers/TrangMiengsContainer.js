@@ -31,7 +31,7 @@ class TrangMiengsContainer extends Component {
 }
 
 TrangMiengsContainer.propTypes = {
-    products : PropTypes.arrayOf(
+    trangmiengs : PropTypes.arrayOf(
         PropTypes.shape({
             id: PropTypes.number.isRequired,
             name: PropTypes.string.isRequired,
